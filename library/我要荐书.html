@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我要荐书</title>
+<style type="text/css">
+.all{padding:100px;
+     width:450px; height:200px;
+	 border:1px  #93C9F0 solid}
+.STYLE1 {
+	color: #3333FF;
+	font-size: 18px;
+	font-weight: bold;
+}
+.but1{border-radius: 5px;background-color: #0066CC;color: #fff;margin-left:100px;
+			      margin-top: 5px;margin-bottom: 5px; width:60px; height:25px;ss}
+.but2{border-radius: 5px;background-color:#0066CC;color: #fff;
+			       width:120px; height:20px;}
+.s{background-color:#0066CC; width:250px; height:2px;}
+a{ font-weight:300;text-decoration: none;
+	    list-style-type:none; color:#0033CC }
+		 a{ font-weight:300;text-decoration: none;
+	    list-style-type:none; }
+ a:link{
+		text-decoration: none;
+		color: #000000;
+	}
+a:visited{
+		text-decoration: none;
+		color: #000000;
+	}
+	a:hover{
+		text-decoration: none;
+		color: #669933;
+	}
+	a:active{
+		text-decoration: none;
+		color: #FF0000;
+	}
+ 
+.but11 {border-radius: 5px;background-color: #0066CC;color: #fff;margin-left:100px;
+			      margin-top: 5px;margin-bottom: 5px; width:60px; height:25px;}
+</style>
+</head>
+<body><div>当前位置：<a href="用户登录界面.html">我的主页</a>>><a href="读者服务.html">读者服务</a>>><a href="我要荐书.html">读者推荐</a></div>
+<div class="all">
+
+<div class="STYLE1">**读者荐购</div>
+<div class="s"></div>
+<div class="div1">
+  <p><img src="img/star.jpg" alt="" />书&nbsp;&nbsp;&nbsp;名:&nbsp;&nbsp;&nbsp;
+    <input type="text"  height="20px"/> <button class="but2">搜索网络资源</button>
+  </p>
+  </div>
+ <div class="div2">
+   <p><img src="img/star.jpg" alt="" />出版社:&nbsp;&nbsp;&nbsp;
+     <input type="text" height="20px"/>
+   </p>
+  </div>
+   <div class="div3">
+  <img src="img/star.jpg" alt="" />推荐理由
+  <label style="height:100">
+  <textarea name="textarea"></textarea>
+  </label>
+</div>
+  <div class="div4">
+    <button class="but1" onclick="fun()">荐购</button>
+  </div>
+ <p  align="right">&nbsp; </p>
+ <p  align="right"><a href="用户登录界面.html">&gt;&gt;返回首页</a> </p>
+</div>
+<script>
+function fun(){
+window.location.href('/html/荐书结果.html')}
+</script>
+</body>
+</html>
